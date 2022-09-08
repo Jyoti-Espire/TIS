@@ -1,0 +1,80 @@
+CREATE TABLE Questions ( 
+Total_no_of_questions int,
+    HRQ varchar(255)  NOT NULL,
+    ITQ varchar(255) NOT NULL,
+    ACQ varchar(255) NOT NULL,
+);
+
+
+CREATE TABLE HRQ (
+    Total_no_of_questions int,
+    Meet_deadline varchar(30)  NOT NULL,
+    Clients varchar(30) NOT NULL,
+    Recruited_in_dept varchar(30) NOT NULL,
+	Skills varchar(30) NOT NULL,
+	Behaviour varchar(30) NOT NULL,
+	Time_management varchar(30) NOT NULL,
+    
+);
+
+
+
+
+
+   insert into HRQ(Total_no_of_questions,meet_deadline,Clients,Recruited_in_dept,Skills,Behaviour,Time_management) values('5','YES','5','YES','GOOD','GOOD','GOOD')
+Select*from HRQ
+
+
+
+
+CREATE TABLE ITQ (
+    Total_no_of_questions int,
+    Meet_deadline varchar(30)  NOT NULL,
+    Flexibility_in_Technology varchar(30) NOT NULL,
+    No_of_Projects varchar(30) NOT NULL,
+	Skills varchar(30) NOT NULL,
+	Behaviour varchar(30) NOT NULL,
+	Time_management varchar(30) NOT NULL,
+    
+);
+
+
+
+   insert into ITQ(Total_no_of_questions,meet_deadline,Flexibility_in_Technology,No_of_Projects,Skills,Behaviour,Time_management) values('5','YES','YES','2','GOOD','VERY GOOD','GOOD')
+
+
+Select*from ITQ
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE ACQ (
+    Total_no_of_questions int,
+    meet_deadline varchar(30)  NOT NULL,
+    InvestmentMade varchar(30) NOT NULL,
+    Percent_of_Profit varchar(30) NOT NULL,
+	Skills varchar(30) NOT NULL,
+	Behaviour varchar(30) NOT NULL,
+	Time_management varchar(30) NOT NULL,
+    
+);
+
+
+
+
+
+
+
+
+   insert into ACQ(Total_no_of_questions,meet_deadline,InvestmentMade,Percent_of_Profit,Skills,Behaviour,Time_management) values('5','YES',50000,25,'GOOD','GOOD','GOOD')
+
+
+Select*from ACQ
